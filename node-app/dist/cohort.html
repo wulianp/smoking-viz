@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<base href="/" />
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Smoking Behavior Analysis</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta name="viewport" content="width=device-width" />
+
+
+	<!-- Bootstrap core CSS     -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+	<!-- Animation library for notifications   -->
+	<link href="assets/css/animate.min.css" rel="stylesheet" />
+
+	<!--  Paper Dashboard core CSS    -->
+	<link href="assets/css/paper-dashboard.css" rel="stylesheet" />
+	
+	<!-- Our custom CSS -->
+	<link href="/dist/main.bundle.css" rel="stylesheet">
+
+	<!-- CSS for correlation graph -->
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+  	<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+	  
+
+	<!--  Fonts and icons     -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+	<link href="assets/css/themify-icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<div class="sidebar" data-background-color="white" data-active-color="danger">
+
+			<div class="sidebar-wrapper">
+				<div class="logo">
+					<a class="simple-text">
+						Menu
+					</a>
+				</div>
+				<ul class="nav">
+					<li>
+						<a href="index.html">
+							<i class="ti-user"></i>
+							<p>User-Level</p>
+						</a>
+					</li>
+					<li class="active">
+						<a href="cohort.html">
+							<i class="ti-layers-alt"></i>
+							<p>Cohort-Level</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="main-panel">
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar bar1"></span>
+							<span class="icon-bar bar2"></span>
+							<span class="icon-bar bar3"></span>
+						</button>
+						<a class="navbar-brand" href="#">Cohort-Level Analysis</a>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-right">
+						</ul>
+
+					</div>
+				</div>
+			</nav>
+
+			<!-- Participant Correlation Graph A -->
+			<div class="center-align">
+					<div class="instructions"><h3>Participant Correlation Graph A</h3></div>
+			</div>
+			<div class="content">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="card" id="corr_graph_a_card">
+								<div class='content'>
+									<div class='graph-container' id='corr_graph_a'></div>
+								</div>
+								<div class="footer">
+									<hr>
+									<div class="stats">Can be used to identify <em>cohorts</em> (i.e. clusters of participants that share similar traits).</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="center-align">
+					<div class="instructions"><h3>Participant Correlation Graph B</h3></div>
+			</div>
+			<div class="content">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="card" id="corr_graph_b_card">
+								<div class='content'>
+									<div class='graph-container' id='corr_graph_b'></div>
+								</div>
+								<div class="footer">
+									<hr>
+									<div class="stats">Can be used to identify <em>cohorts</em> (i.e. clusters of participants that share similar traits).</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Participant Correlation Sankey A-->
+			<div class="center-align">
+					<div class="instructions"><h3>Participant Sankey Diagram A</h3></div>
+			</div>
+			<div class="content">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="card" id="participant_a_sankey_card">
+								<div class='content'>
+									<div class='graph-container' id='participant_a_sankey'></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Participant Correlation Sankey B-->
+			<div class="center-align">
+					<div class="instructions"><h3>Participant Sankey Diagram B</h3></div>
+			</div>
+			<div class="content">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="card" id="participant_b_sankey_card">
+								<div class='content'>
+									<div class='graph-container' id='participant_b_sankey'></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Location EMA -->
+			<div class="center-align">
+					<div class="instructions"><h3>Location EMA Analysis</h3></div>
+			</div>
+			<div class="content">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="card" id="loc_sankey_card">
+								<div class='content'>
+									<div class='graph-container' id='loc_sankey'></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Smoking Cues EMA -->
+			<div class="center-align">
+					<div class="instructions"><h3>Smoking Cues EMA Analysis</h3></div>
+			</div>
+			<div class="content">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="card" id="cue_sankey_card">
+								<div class='content'>
+									<div class='graph-container' id='cue_sankey'></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Mental Processes EMA -->
+			<div class="center-align">
+					<div class="instructions"><h3>Stress EMA Analysis</h3></div>
+			</div>
+			<div class="content">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="card" id="stress_sankey_card">
+								<div class='content'>
+									<div class='graph-container' id='stress_sankey'></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- To select time interval for scatterplots -->
+			<div class="center-align">
+				<form>
+					<div class="instructions"><h3>HRV Correlation</h3></div>
+					<div class="instructions"><h5>Choose the time interval preceding the self-report.</h5></div>
+					<select id="scatter_time_interval_menu" >
+						<option value="5">5-minute Interval</option>
+						<option value="10">10-minute Interval</option>  
+						<option value="15">15-minute Interval</option>
+					</select>
+				<form>
+			</div>
+			
+			<div class="content">
+				<div class="container-fluid">
+					<div class="col-md-6">
+						<div class="card ">
+							<div class="header">
+								<h4 class="title">Stress vs. HRV</h4>
+							</div>
+							<div class="content">
+								<div class="center-align" id="stress_scatter"></div>
+								<div class="footer">
+									<hr>
+									<div class="stats" id="stress_pearsons"></div>
+									<div class="stats" id="stress_spearmans"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="card ">
+							<div class="header">
+								<h4 class="title">Urge vs. HRV</h4>
+							</div>
+							<div class="content">
+								<div class="center-align" id="urge_scatter"></div>
+								<div class="footer">
+									<hr>
+									<div class="stats" id="urge_pearsons"></div>
+									<div class="stats" id="urge_spearmans"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<footer class="footer">
+						<div class="container-fluid">
+						</div>
+					</footer>
+				</div>
+			</div>
+
+			<div class="content">
+				<div class="container-fluid">
+					<div class="col-12">
+						<div class="card ">
+							<div class="header">
+								<h4 class="title">Activity & HRV Zscore vs. Smoking Lapses</h4>
+							</div>
+							<div class="content">
+								<h6 class="title">At a Glance View</h6>
+								<div class="center-align">
+									<iframe src="https://10az.online.tableau.com/t/wwusmokecessation/views/smoking_analysis/Dashboard2?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no" width="100%" height="500px"></iframe>
+								</div>
+							</div>
+							<div class="content">
+								<h6 class="title">Fine Granular - Detailed View</h6>
+								<div class="center-align">
+									<iframe src="https://10az.online.tableau.com/t/wwusmokecessation/views/smoking_analysis/Dashboard1?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no" width="100%" height="900px"></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Just need to include the bundled JaveScript file. -->
+			<script type="text/javascript" src="/dist/cohort.bundle.js"></script>
+			
+			<!-- Scripts for sankey diagrams -->
+			<script src="http://d3js.org/d3.v3.min.js?2.9.1"></script>
+			<script src="assets/js/sankey.js"></script>
+			<script src="assets/js/sankey_participant_a.js"></script>
+			<script src="assets/js/sankey_participant_b.js"></script>
+			<script src="assets/js/sankey_stress.js"></script>
+			<script src="assets/js/sankey_location.js"></script>
+			<script src="assets/js/sankey_cues.js"></script> 
+
+			<!-- Scripts for correlation graph -->
+			<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.1.0/d3.min.js'></script>
+			<script src='https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js'></script>
+			<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js'></script>
+			<script src='assets/js/jLouvain.js'></script>
+			<script src='assets/js/correlation_graph_a_entry.js'></script>
+			<script src='assets/js/correlation-graph-a.js'></script>
+			<script src='assets/js/correlation_graph_b_entry.js'></script>
+			<script src='assets/js/correlation-graph-b.js'></script>
+			<script src='assets/js/draw-pictogram-table.js'></script>
+        </body>
+</html>

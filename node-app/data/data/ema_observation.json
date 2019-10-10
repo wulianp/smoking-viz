@@ -1,0 +1,62 @@
+{
+	"links": [{
+			"source": 0,
+			"target": 4,
+			"value": 28,
+			"type": 1
+		}, {
+			"source": 0,
+			"target": 5,
+			"value": 25,
+			"type": 2
+		}, {
+			"source": 5,
+			"target": 1,
+			"value": 1.47,
+			"type": 0
+		}, {
+			"source": 5,
+			"target": 2,
+			"value": 1.96,
+			"type": 0
+		}, {
+			"source": 5,
+			"target": 3,
+			"value": 0.98,
+			"type": 0
+		}, {
+			"source": 5,
+			"target": 6,
+			"value": 1.47,
+			"type": 2
+		}, {
+			"source": 5,
+			"target": 7,
+			"value": 6.865,
+			"type": 2
+		}, {
+			"source": 5,
+			"target": 8,
+			"value": 12.25,
+			"type": 2
+		}],
+	"nodes": [{
+			"name": "All EMA Responces"
+		}, {
+			"name": "Observed Friends Smoking"
+		}, {
+			"name": "Observed co-worker Smoking"
+		}, {
+			"name": "Observed stranger Smoking"
+		}, {
+			"name": "Observed no smoking cues"
+		}, {
+			"name": "Observed smoking cues"
+		}, {
+			"name": "Ashtrays"
+		}, {
+			"name": "Cigeratte Butts"
+		}, {
+			"name": "Cigeratte Disposal Container"
+		}]
+}

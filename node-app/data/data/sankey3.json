@@ -1,0 +1,175 @@
+{
+	"links": [{
+			"source": 1,
+			"target": 5,
+			"value": 1,
+			"type": 0
+		}, {
+			"source": 3,
+			"target": 5,
+			"value": 1,
+			"type": 0
+		}, {
+			"source": 4,
+			"target": 5,
+			"value": 1,
+			"type": 0
+		}, {
+			"source": 4,
+			"target": 6,
+			"value": 1,
+			"type": 0
+		}, {
+			"source": 1,
+			"target": 7,
+			"value": 1,
+			"type": 0
+		}, {
+			"source": 3,
+			"target": 8,
+			"value": 1,
+			"type": 0
+		}, {
+			"source": 0,
+			"target": 9,
+			"value": 1,
+			"type": 1
+		}, {
+			"source": 1,
+			"target": 9,
+			"value": 1,
+			"type": 1
+		}, {
+			"source": 2,
+			"target": 9,
+			"value": 1,
+			"type": 1
+		}, {
+			"source": 3,
+			"target": 10,
+			"value": 1,
+			"type": 1
+		}, {
+			"source": 4,
+			"target": 9,
+			"value": 1,
+			"type": 1
+		}, {
+			"source": 4,
+			"target": 11,
+			"value": 1,
+			"type": 1
+		}, {
+			"source": 0,
+			"target": 12,
+			"value": 1,
+			"type": 1
+		}, {
+			"source": 2,
+			"target": 12,
+			"value": 1,
+			"type": 1
+		}, {
+			"source": 1,
+			"target": 13,
+			"value": 1,
+			"type": 1
+		}, {
+			"source": 0,
+			"target": 15,
+			"value": 1,
+			"type": 2
+		}, {
+			"source": 1,
+			"target": 14,
+			"value": 1,
+			"type": 2
+		}, {
+			"source": 2,
+			"target": 14,
+			"value": 1,
+			"type": 2
+		}, {
+			"source": 3,
+			"target": 15,
+			"value": 1,
+			"type": 2
+		}, {
+			"source": 4,
+			"target": 15,
+			"value": 1,
+			"type": 2
+		}, {
+			"source": 0,
+			"target": 16,
+			"value": 1,
+			"type": 3
+		}, {
+			"source": 1,
+			"target": 17,
+			"value": 1,
+			"type": 3
+		}, {
+			"source": 2,
+			"target": 18,
+			"value": 1,
+			"type": 3
+		}, {
+			"source": 3,
+			"target": 19,
+			"value": 1,
+			"type": 3
+		}, {
+			"source": 4,
+			"target": 17,
+			"value": 1,
+			"type": 3
+		}, {
+			"source": 4,
+			"target": 20,
+			"value": 1
+		}],
+	"nodes": [{
+			"name": "Participant 1"
+		}, {
+			"name": "Participant 2"
+		}, {
+			"name": "Participant 3"
+		}, {
+			"name": "Participant 4"
+		}, {
+			"name": "Participant 5"
+		}, {
+			"name": "Employed"
+		}, {
+			"name": "0-20 hours"
+		}, {
+			"name": "21-40 hours"
+		}, {
+			"name": "61-80 hours"
+		}, {
+			"name": "Undergraduate"
+		}, {
+			"name": "High School"
+		}, {
+			"name": "Junior"
+		}, {
+			"name": "Senior"
+		}, {
+			"name": "Freshman"
+		}, {
+			"name": "1-2 hours Smartphone usage"
+		}, {
+			"name": "2-3 hours Smartphone usage"
+		}, {
+			"name": "2-3 Self Reported Stress Score"
+		}, {
+			"name": "3.1-4 Self Reported Stress Score"
+		}, {
+			"name": "4.1-5 Self Reported Stress Level"
+		}, {
+			"name": "5.1-6 Self Reported Stress Score"
+		}, {
+			"name": "Currently using E-Cigarettes?"
+		}]
+}

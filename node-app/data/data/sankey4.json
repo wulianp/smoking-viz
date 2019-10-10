@@ -1,0 +1,249 @@
+{
+	"links": [{
+			"source": 0,
+			"target": 5,
+			"value": 1,
+			"type": 2
+		}, {
+			"source": 1,
+			"target": 5,
+			"value": 1,
+			"type": 2
+		}, {
+			"source": 3,
+			"target": 5,
+			"value": 1,
+			"type": 2
+		}, {
+			"source": 4,
+			"target": 5,
+			"value": 1,
+			"type": 2
+		}, {
+			"source": 0,
+			"target": 6,
+			"value": 1,
+			"type": 0
+		}, {
+			"source": 1,
+			"target": 6,
+			"value": 1,
+			"type": 0
+		}, {
+			"source": 4,
+			"target": 6,
+			"value": 1,
+			"type": 0
+		}, {
+			"source": 2,
+			"target": 7,
+			"value": 1,
+			"type": 1
+		}, {
+			"source": 3,
+			"target": 7,
+			"value": 1,
+			"type": 1
+		}, {
+			"source": 4,
+			"target": 7,
+			"value": 1,
+			"type": 1
+		}, {
+			"source": 2,
+			"target": 8,
+			"value": 0.5,
+			"type": 1
+		}, {
+			"source": 2,
+			"target": 10,
+			"value": 0.5,
+			"type": 1
+		},{
+			"source": 3,
+			"target": 9,
+			"value": 1,
+			"type": 1
+		}, {
+			"source": 4,
+			"target": 9,
+			"value": 1,
+			"type": 1
+		}, {
+			"source": 0,
+			"target": 12,
+			"value": 1,
+			"type": 2
+		}, {
+			"source": 1,
+			"target": 11,
+			"value": 1,
+			"type": 2
+		}, {
+			"source": 3,
+			"target": 13,
+			"value": 1,
+			"type": 2
+		}, {
+			"source": 4,
+			"target": 11,
+			"value": 1,
+			"type": 2
+		}, {
+			"source": 1,
+			"target": 14,
+			"value": 1,
+			"type": 2
+		}, {
+			"source": 3,
+			"target": 15,
+			"value": 1,
+			"type": 2
+		}, {
+			"source": 4,
+			"target": 14,
+			"value": 1,
+			"type": 2
+		}, {
+			"source": 0,
+			"target": 16,
+			"value": 0.67,
+			"type": 3
+		}, {
+			"source": 1,
+			"target": 16,
+			"value": 0.41,
+			"type": 3
+		}, {
+			"source": 2,
+			"target": 16,
+			"value": 0.41,
+			"type": 3
+		}, {
+			"source": 3,
+			"target": 16,
+			"value": 0.83,
+			"type": 3
+		}, {
+			"source": 4,
+			"target": 16,
+			"value": 0.58,
+			"type": 3
+		}, {
+			"source": 0,
+			"target": 17,
+			"value": 1,
+			"type": 3
+		}, {
+			"source": 1,
+			"target": 18,
+			"value": 1,
+			"type": 3
+		}, {
+			"source": 2,
+			"target": 19,
+			"value": 1,
+			"type": 3
+		}, {
+			"source": 3,
+			"target": 19,
+			"value": 1,
+			"type": 3
+		}, {
+			"source": 4,
+			"target": 17,
+			"value": 1,
+			"type": 3
+		}, {
+			"source": 1,
+			"target": 20,
+			"value": 0.5,
+			"type": 3
+		}, {
+			"source": 3,
+			"target": 20,
+			"value": 1,
+			"type": 3
+		}, {
+			"source": 4,
+			"target": 20,
+			"value": 0.5,
+			"type": 3
+		}, {
+			"source": 0,
+			"target": 21,
+			"value": 1,
+			"type": 3
+		}, {
+			"source": 1,
+			"target": 22,
+			"value": 1,
+			"type": 3
+		}, {
+			"source": 2,
+			"target": 23,
+			"value": 1,
+			"type": 3
+		}, {
+			"source": 3,
+			"target": 24,
+			"value": 1,
+			"type": 3
+		}, {
+			"source": 4,
+			"target": 22,
+			"value": 1,
+			"type": 3
+		}],
+	"nodes": [{
+			"name": "Participant 1"
+		}, {
+			"name": "Participant 2"
+		}, {
+			"name": "Participant 3"
+		}, {
+			"name": "Participant 4"
+		}, {
+			"name": "Participant 5"
+		}, {
+			"name": "Attempted to Quit?"
+		}, {
+			"name": "Family Member smoke now or in the past?"
+		}, {
+			"name": "Anyone or Anything influence smoking?"
+		}, {
+			"name": "Smoking influenced by Depression"
+		}, {
+			"name": "Smoking influenced by Friends"
+		}, {
+			"name": "Smoking influenced by Personal Family Issues"
+		}, {
+			"name": "Abstinent 1-7 days - quit attempt"
+		}, {
+			"name": "Abstinent 8-14 days - quit attempt"
+		}, {
+			"name": "Abstinent 15-21 days - quit attempt"
+		}, {
+			"name": "Nicotine Gums"
+		}, {
+			"name": "Patches"
+		}, {
+			"name": "Willingness to Quit?"
+		}, {
+			"name": "smoke over weekends"
+		}, {
+			"name": "smoke over weekdays"
+		}, {
+			"name": "No change over weekdays & weekends"
+		}, {
+			"name": "Smoke when driving or commuting?"
+		}, {
+			"name": "2-3 Self Reported Stress Score"
+		}, {
+			"name": "3.1-4 Self Reported Stress Score"
+		}, {
+			"name": "4.1-5 Self Reported Stress Level"
+		}, {
+			"name": "5.1-6 Self Reported Stress Score"
+		}]
+}

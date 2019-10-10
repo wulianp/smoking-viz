@@ -1,0 +1,9 @@
+# .gitignore for Node.js specific things
+node_modules/
+build/
+npm-debug.log
+.env
+.DS_Store
+
+# Ignore generated data directory
+dist/data/

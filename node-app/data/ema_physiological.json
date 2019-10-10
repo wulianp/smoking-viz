@@ -1,0 +1,111 @@
+{
+	"links": [{
+			"source": 0,
+			"target": 1,
+			"value": 8.83,
+			"type": 0
+		}, {
+			"source": 0,
+			"target": 2,
+			"value": 5.60,
+			"type": 0
+		}, {
+			"source": 0,
+			"target": 3,
+			"value": 2.15,
+			"type": 0
+		}, {
+			"source": 0,
+			"target": 4,
+			"value": 5.17,
+			"type": 0
+		}, {
+			"source": 0,
+			"target": 5,
+			"value": 2.58,
+			"type": 0
+		}, {
+			"source": 0,
+			"target": 6,
+			"value": 0.861,
+			"type": 0
+		}, {
+			"source": 0,
+			"target": 7,
+			"value": 3.66,
+			"type": 1
+		}, {
+			"source": 0,
+			"target": 8,
+			"value": 3.016,
+			"type": 1
+		}, {
+			"source": 0,
+			"target": 9,
+			"value": 2.58,
+			"type": 1
+		}, {
+			"source": 0,
+			"target": 10,
+			"value": 4.308,
+			"type": 2
+		}, {
+			"source": 0,
+			"target": 11,
+			"value": 3.44,
+			"type": 2
+		}, {
+			"source": 0,
+			"target": 12,
+			"value": 0.861,
+			"type": 3
+		}, {
+			"source": 0,
+			"target": 13,
+			"value": 6.8,
+			"type": 3
+		}, {
+			"source": 0,
+			"target": 14,
+			"value": 0.647,
+			"type": 3
+		}, {
+			"source": 0,
+			"target": 15,
+			"value": 2.58,
+			"type": 3
+		}],
+	"nodes": [{
+			"name": "All EMA Responces"
+		}, {
+			"name": "Strong urge"
+		}, {
+			"name": "In control of urge"
+		}, {
+			"name": "Sad"
+		}, {
+			"name": "Anxious"
+		}, {
+			"name": "Difficulty concerntrating"
+		}, {
+			"name": "Angry"
+		}, {
+			"name": "Smoke to reduce stress"
+		}, {
+			"name": "Smoke to reduce urge"
+		}, {
+			"name": "No Specific reason to smoke"
+		}, {
+			"name": "Tired"
+		}, {
+			"name": "Hungry"
+		}, {
+			"name": "Alcoholic Drink"
+		}, {
+			"name": "Caffienated Drink"
+		}, {
+			"name": "Drugs"
+		}, {
+			"name": "Food"
+		}]
+}

@@ -1,0 +1,171 @@
+{
+	"nodes": [{
+			"id": 0,
+			"name": "Participant 1"
+		}, {
+			"id": 1,
+			"name": "Participant 2"
+		}, {
+			"id": 2,
+			"name": "Participant 3"
+		}, {
+			"id": 3,
+			"name": "Participant 4"
+		}, {
+			"id": 4,
+			"name": "Participant 5"
+		}, {
+			"id": 5,
+			"name": "Employed"
+		}, {
+			"id": 6,
+			"name": "0-20 hours"
+		}, {
+			"id": 7,
+			"name": "21-40 hours"
+		}, {
+			"id": 8,
+			"name": "61-80 hours"
+		}, {
+			"id": 9,
+			"name": "Undergraduate"
+		}, {
+			"id": 10,
+			"name": "High School"
+		}, {
+			"id": 11,
+			"name": "Junior"
+		}, {
+			"id": 12,
+			"name": "Senior"
+		}, {
+			"id": 13,
+			"name": "Freshman"
+		}, {
+			"id": 14,
+			"name": "1-2 hours Smartphone usage"
+		}, {
+			"id": 15,
+			"name": "2-3 hours Smartphone usage"
+		}, {
+			"id": 16,
+			"name": "2-3 Self Reported Stress Score"
+		}, {
+			"id": 17,
+			"name": "3.1-4 Self Reported Stress Score"
+		}, {
+			"id": 18,
+			"name": "4.1-5 Self Reported Stress Level"
+		}, {
+			"id": 19,
+			"name": "5.1-6 Self Reported Stress Score" 
+		}, {
+			"id": 20,
+			"name": "Currently using E-Cigarettes?"
+		}],
+	"edges": [{
+			"source": 1,
+			"target": 5,
+			"weight": 1
+		}, {
+			"source": 3,
+			"target": 5,
+			"weight": 1
+		}, {
+			"source": 4,
+			"target": 5,
+			"weight": 1
+		}, {
+			"source": 4,
+			"target": 6,
+			"weight": 1
+		}, {
+			"source": 1,
+			"target": 7,
+			"weight": 1
+		}, {
+			"source": 3,
+			"target": 8,
+			"weight": 1
+		}, {
+			"source": 0,
+			"target": 9,
+			"weight": 1
+		}, {
+			"source": 1,
+			"target": 9,
+			"weight": 1
+		}, {
+			"source": 2,
+			"target": 9,
+			"weight": 1
+		}, {
+			"source": 3,
+			"target": 10,
+			"weight": 1
+		}, {
+			"source": 4,
+			"target": 9,
+			"weight": 1
+		}, {
+			"source": 4,
+			"target": 11,
+			"weight": 1
+		}, {
+			"source": 0,
+			"target": 12,
+			"weight": 1
+		}, {
+			"source": 2,
+			"target": 12,
+			"weight": 1
+		}, {
+			"source": 1,
+			"target": 13,
+			"weight": 1
+		}, {
+			"source": 0,
+			"target": 15,
+			"weight": 1
+		}, {
+			"source": 1,
+			"target": 14,
+			"weight": 1
+		}, {
+			"source": 2,
+			"target": 14,
+			"weight": 1
+		}, {
+			"source": 3,
+			"target": 15,
+			"weight": 1
+		}, {
+			"source": 4,
+			"target": 15,
+			"weight": 1
+		}, {
+			"source": 0,
+			"target": 16,
+			"weight": 1
+		}, {
+			"source": 1,
+			"target": 17,
+			"weight": 1
+		}, {
+			"source": 2,
+			"target": 18,
+			"weight": 1
+		}, {
+			"source": 3,
+			"target": 19,
+			"weight": 1
+		}, {
+			"source": 4,
+			"target": 17,
+			"weight": 1
+		}, {
+			"source": 4,
+			"target": 20,
+			"weight": 1
+		}]
+}
